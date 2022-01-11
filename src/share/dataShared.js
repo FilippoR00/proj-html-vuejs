@@ -3,30 +3,47 @@ import Vue from 'vue';
 export default Vue.observable({
     navBar: [
         {
-            name: 'Home'
+            name: 'Home',
+            drop: false,
+            html: false
         },
         {
-            name: 'About Me'
+            name: 'About Me',
+            drop: false,
+            html: false
         },
         {
-            name: 'Testimonials'
+            name: 'Testimonials',
+            drop: false,
+            html: false
         },
         {
-            name: 'My Blog'
+            name: 'My Blog',
+            drop: false,
+            html: false
         },
         {
-            name: 'Meetups'
+            name: 'Meetups',
+            drop: false,
+            html: false
         },
         {
             name: 'Shop',
+            drop: true,
+            html: false,
             option1: 'Simple Product',
             option2: 'Variable Product'
         },
         {
-            name: 'Contact Me'
+            name: 'Contact Me',
+            drop: false,
+            html: false
         },
         {
-            name: '<i class="fas fa-shopping-cart"></i>'
+            name: '',
+            drop: false,
+            html: true,
+            class: `fas fa-shopping-cart`
         }
     ]
 });
