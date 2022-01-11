@@ -1,12 +1,20 @@
 <template>
 	<div>
-		
+		<NavBar/>
+		<Jumbo/>
 	</div>
 </template>
 
 <script>
+	import NavBar from './sections/NavBar.vue'
+	import Jumbo from './sections/Jumbo.vue'
+
 	export default {
-		name: 'Header'
+		name: 'Header',
+		components: {
+			NavBar,
+			Jumbo
+		}
 	}
 </script>
 
