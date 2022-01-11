@@ -1,0 +1,17 @@
+@import "Variables.scss";
+
+// ----------
+// Global
+// ----------
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+}
+
+// ----------
+// Font
+// ----------
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&family=Kristi&display=swap');
