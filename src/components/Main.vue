@@ -2,12 +2,15 @@
 	<div>
         <MoreBanner/>
         <Banner/>
+        <Audiobook/>
 	</div>
 </template>
 
 <script>
 	import MoreBanner from './sections/MoreBanner.vue'
 	import Banner from './sections/Banner.vue'
+	import Audiobook from './sections/Audiobook.vue'
+
 
 
 
@@ -16,6 +19,8 @@
         components: {
             MoreBanner,
             Banner,
+            Audiobook,
+            
         }
 	}
 </script>
