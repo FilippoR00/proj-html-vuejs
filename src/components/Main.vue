@@ -3,6 +3,7 @@
         <MoreBanner/>
         <Banner/>
         <Audiobook/>
+        <Testimonials/>
 	</div>
 </template>
 
@@ -10,6 +11,8 @@
 	import MoreBanner from './sections/MoreBanner.vue'
 	import Banner from './sections/Banner.vue'
 	import Audiobook from './sections/Audiobook.vue'
+	import Testimonials from './sections/Testimonials.vue'
+
 
 
 
@@ -20,6 +23,7 @@
             MoreBanner,
             Banner,
             Audiobook,
+            Testimonials,
             
         }
 	}

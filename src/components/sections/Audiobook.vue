@@ -19,22 +19,16 @@
         name: 'Audiobook',
         mounted() {
             const bottom = new IntersectionObserver(entries => {
-            // Loop over the entries
                 entries.forEach(entry => {
-                    // If the element is visible
                     if (entry.isIntersecting) {
-                        // Add the animation class
                         entry.target.classList.add('show-bottom');
                     }
                 });
             });
             bottom.observe(document.querySelector('.phone-img'));
             const right = new IntersectionObserver(entries => {
-            // Loop over the entries
                 entries.forEach(entry => {
-                    // If the element is visible
                     if (entry.isIntersecting) {
-                        // Add the animation class
                         entry.target.classList.add('show-right');
                     }
                 });
@@ -56,6 +50,8 @@
             img{
                 margin-top: 80px;
                 height: 550px;
+                position: relative;
+                top: 5px;
             }
             .show-bottom{
                 animation: show_bottom 2s 1;
@@ -94,17 +90,16 @@
                 margin-bottom: 50px;
             }
             a{
-            width: 50%;
-            margin: 0px auto;
-            text-decoration: none;
-            color: white;
-            padding: 10px 25px;
-            background-color: $keppel;
-            border-radius: 5px;
-            transition: 0.2s;
+                margin: 0px auto;
+                text-decoration: none;
+                color: white;
+                padding: 10px 25px;
+                background-color: $keppel;
+                border-radius: 5px;
+                transition: 0.2s;
             }
             a:hover{
-            background-color: $blueLagoon;
+                background-color: $blueLagoon;
             }
         }
         .show-right{
