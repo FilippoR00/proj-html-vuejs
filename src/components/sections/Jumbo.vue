@@ -148,7 +148,7 @@ export default {
                 transition: 0.2s;
             }
             .button:hover{
-                background-color: #49a987;
+                background-color: $keppel;
                 color: $white;
             }
         }
