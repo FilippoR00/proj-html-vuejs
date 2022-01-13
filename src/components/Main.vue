@@ -7,6 +7,7 @@
         <Events/>
         <Newsletter/>
         <CardSection/>
+        <Articles/>
 	</div>
 </template>
 
@@ -18,7 +19,7 @@
 	import Events from './sections/Events.vue'
 	import Newsletter from './sections/Newsletter.vue'
 	import CardSection from './sections/CardSection.vue'
-
+	import Articles from './sections/Articles.vue'
 
 	export default {
 		name: 'Main',
@@ -30,7 +31,7 @@
             Events,
             Newsletter,
             CardSection,
-
+            Articles
         }
 	}
 </script>
