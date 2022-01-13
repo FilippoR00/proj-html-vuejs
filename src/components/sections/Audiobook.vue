@@ -47,6 +47,7 @@
         display: flex;
         justify-content: center;
         .left{
+            overflow: hidden;
             img{
                 margin-top: 80px;
                 height: 550px;

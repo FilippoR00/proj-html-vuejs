@@ -45,5 +45,27 @@ export default Vue.observable({
             html: true,
             class: `fas fa-shopping-cart`
         }
-    ]
+    ],
+    links: [
+        {
+            text: 'Latest Books',
+            link: '#',
+        },
+        {
+            text: 'Upcoming Events',
+            link: '#',
+        },
+        {
+            text: 'Recent Articles',
+            link: '#',
+        },
+        {
+            text: 'Business Enquiries',
+            link: '#',
+        },
+        {
+            text: 'Visit My Foundation',
+            link: '#',
+        }
+    ],
 });
