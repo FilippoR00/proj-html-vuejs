@@ -4,6 +4,7 @@
         <Banner/>
         <Audiobook/>
         <Testimonials/>
+        <Events/>
 	</div>
 </template>
 
@@ -12,6 +13,8 @@
 	import Banner from './sections/Banner.vue'
 	import Audiobook from './sections/Audiobook.vue'
 	import Testimonials from './sections/Testimonials.vue'
+	import Events from './sections/Events.vue'
+
 
 
 
@@ -24,6 +27,7 @@
             Banner,
             Audiobook,
             Testimonials,
+            Events,
             
         }
 	}
