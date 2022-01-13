@@ -6,6 +6,7 @@
         <Testimonials/>
         <Events/>
         <Newsletter/>
+        <CardSection/>
 	</div>
 </template>
 
@@ -16,11 +17,7 @@
 	import Testimonials from './sections/Testimonials.vue'
 	import Events from './sections/Events.vue'
 	import Newsletter from './sections/Newsletter.vue'
-
-
-
-
-
+	import CardSection from './sections/CardSection.vue'
 
 
 	export default {
@@ -32,7 +29,8 @@
             Testimonials,
             Events,
             Newsletter,
-            
+            CardSection,
+
         }
 	}
 </script>
