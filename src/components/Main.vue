@@ -5,6 +5,7 @@
         <Audiobook/>
         <Testimonials/>
         <Events/>
+        <Newsletter/>
 	</div>
 </template>
 
@@ -14,6 +15,8 @@
 	import Audiobook from './sections/Audiobook.vue'
 	import Testimonials from './sections/Testimonials.vue'
 	import Events from './sections/Events.vue'
+	import Newsletter from './sections/Newsletter.vue'
+
 
 
 
@@ -28,6 +31,7 @@
             Audiobook,
             Testimonials,
             Events,
+            Newsletter,
             
         }
 	}

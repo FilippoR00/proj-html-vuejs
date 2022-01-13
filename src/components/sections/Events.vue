@@ -34,14 +34,14 @@
     export default {
         name: 'Events',
         mounted() {
-            const right = new IntersectionObserver(entries => {
+            const fadein = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('fade-in');
                     }
                 });
             });
-            right.observe(document.querySelector('.trigger'));
+            fadein.observe(document.querySelector('.trigger'));
         },
     }
 </script>
